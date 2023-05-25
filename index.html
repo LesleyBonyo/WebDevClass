@@ -16,9 +16,14 @@
 
 	<!--paragraphs-->
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	tempor incididunt ut labore et dolore magna aliqua.<br> 
+	<hr>
+
+	<span style="text-decoration: underline; color: blue;">Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	consequat.</span> 
+
+	Duis aute irure dolor in reprehenderit in voluptate velit esse
 	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<!-- adding links -->
@@ -41,6 +46,9 @@
 	</ul>
 	<!-- adding tables -->
 	<table border="1px">
+		<tr>
+			<th colspan="3">Student Details</th>
+		</tr>
 		<tr>
 			<th>Student No.</hd>
 			<th>Name</th>
@@ -67,5 +75,55 @@
 			<td>12</td>
 		</tr>
 	</table>
+	<!-- forms -->
+	<h2 style="text-align:center;">Registration Form</h2>
+	<form>
+		<div><label for="username">Username </label></div>
+		<div><input type="text" name="username" placeholder="Enter you username" required></div>
+		<!-- Create input type password, email, date, number -->
+		<div><label for="userpass">Password</label></div>
+		<div><input type="password" name="userpass" placeholder="Enter your password"></div>
+		<div><label for="useremail">Email</label></div>
+		<div><input type="email" name="useremail" placeholder="Enter your email"></div>
+		<div><label for="userdob">DOB</label></div>
+		<div><input type="date" name="userdob" placeholder="Enter your dob"></div>
+		<div><label for="userage">Age</label></div>
+		<div>
+		<input type="number" name="userage" placeholder="Enter your age"></div>
+		<!-- radio buttons -->
+		<div><label>Select your gender</label></div>
+		<div>
+		<input type="radio" name="gender" value="Male"><label>Male</label>
+		<input type="radio" name="gender" value="Female"><label>Female</label></div>
+		<!-- checkbox -->
+		<div><label>Select units for this semester</label></div>
+
+		<div><input type="checkbox" name="unit1" value="Sofware Eng."> 
+		<label>Software Eng.</label>
+
+		<input type="checkbox" name="unit2" value="Web Dev"> 
+		<label>Web Dev.</label>
+
+		<input type="checkbox" name="unit3" value="DSA"> 
+		<label>DSA</label>
+
+		<input type="checkbox" name="unit4" value="Networking"> 
+		<label>Networking</label></div>
+
+		<!-- select element-->
+		<div><label>Your favourite meal</label></div>
+		<div>
+		<select name="meal">
+			<option>--select a meal--</option>
+			<option>Chapati</option>
+			<option>Rice</option>
+			<option>Eggs</option>
+		</select></div>
+		<!-- submit -->
+		<input type="submit" name="submit">
+		<!-- reset -->
+		<input type="reset" name="reset">
+		<button><img src="cutecat.jpg" width="10%">Login</button>
+	</form>
 </body>
 </html>
