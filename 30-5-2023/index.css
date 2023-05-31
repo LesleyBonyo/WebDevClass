@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
 /* Element selector: h1,p etc */
 h1 {
-	text-align: right;
+	text-align: center;
 
 }
 /* id selector: #par1 */
@@ -36,4 +36,44 @@ h1, p{
 /*attribute selector */
 [type="text"]{
 	color: red;
+}
+.topLinks{
+	text-decoration: none;
+	/*border: 1px solid black;*/
+	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	/*padding: 10px 10px 10px 10px*/
+	/* padding: 10px; */
+	/* padding: 10px 20px; */
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	/*margin: 20px 20px 20px 20px*/
+	float: right;
+}
+.topLinks:hover{
+	color: black;
+	font-size: 25px;
+}
+.topLinks:visited{
+	color: green;
+}
+.topLinks:active{
+	color: red;
+}
+.topBar{
+	/*background-color: white;*/
+	height: 50px;
+	width: 100%;
+	background-image: url(cutecat.jpg);
+
+}
+body {
+	background-image: url(cutecat.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
