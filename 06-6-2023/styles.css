@@ -1,0 +1,33 @@
+*{
+	box-sizing: border-box;	
+}
+h1 {
+	text-align: center;
+}
+
+.signUp{
+	background-color: #DFEAF5;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+input[type="text"], 
+input[type="email"],
+input[type="password"], select {
+	width: 100%;
+	padding: 10px 15px;
+	border-radius: 5px;
+	border: 1px solid #93ABC4;
+}
+[type="submit"]{
+	width: 100%;
+	padding: 10px 15px;
+	background-color: #2276D1;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	margin: 10px 0;
+}
+[type="submit"]:hover {
+	opacity: 0.5;
+}
