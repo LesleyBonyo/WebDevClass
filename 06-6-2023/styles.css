@@ -31,3 +31,29 @@ input[type="password"], select {
 [type="submit"]:hover {
 	opacity: 0.5;
 }
+.topList{
+ list-style-type: none;
+ background-color: #2276D1;
+ overflow: hidden;
+ margin: 0;
+ padding: 0;
+}
+li{
+	/*display: inline;*/
+	float: left;
+}
+.topLinks{
+	text-decoration: none;
+	color: white;
+	padding: 15px 14px;
+	font-size: 35px;
+}
+
+.active{
+	background-color: white;
+	color: #6598CF;
+}
+.topLinks:hover{
+	background-color: #6598CF;
+}
+
