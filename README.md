@@ -1,0 +1,10 @@
+# WebDevClass
+
+## HTML Class
+HTML define the structure of the page. <br><br>
+HTML Concepts: <a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/30-5-2023"> HTML</a> 
+ <br>
+## CSS Class
+Add styling to HTML pages using CSS. <br><br>
+CSS Basics : <a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/30-5-2023">CSS</a> <br><br>
+signup form : <a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/06-6-2023">Design a simple sign up form</a>
