@@ -11,4 +11,4 @@ signup form and top navigation bar : <a href="https://github.com/LesleyBonyo/Web
 <br>
 ## JavaScript Class
 Add interactivity to your page using JavaScript. <br><br>
-Javascript syntax: <a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/30-5-2023">CSS</a>
+Javascript syntax: <a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/13-6-2023">JavaScript</a>
