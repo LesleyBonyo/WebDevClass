@@ -51,7 +51,7 @@ console.log(sum);
 //sum = sum + 1;
 sum += 1;
 console.log(sum);
-// logical operators: > < == >= <= != ===
+// comparison operators: > < == >= <= != ===
 console.log(12 != 13);
 
 
