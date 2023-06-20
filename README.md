@@ -10,5 +10,7 @@ CSS Basics : <a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/30-5-
 signup form and top navigation bar : <a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/06-6-2023">Design a simple sign up form</a>
 <br>
 ## JavaScript Class
-Add interactivity to your page using JavaScript. <br><br>
-Javascript syntax: <a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/13-06-2023">JavaScript</a>
+Add interactivity to your page using JavaScript. <br>
+Javascript syntax: <a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/13-06-2023">JavaScript</a><br>
+JavaScript HTML DOM:<a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/20-6-2023">JavaScript DOM</a>
+<br>
