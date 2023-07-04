@@ -6,6 +6,12 @@
 	<title>SignUp</title>
 	<!-- link external css: styles.css -->
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style type="text/css">
+		.result {
+			color: red;
+			text-align: center;
+		}
+	</style>
 </head>
 	<body>
 		<!-- list of links -->
@@ -18,13 +24,18 @@
 
 		<h1>Sign Up</h1>
 		<div class="signUp">
-		<form>
+		<form onsubmit="return validateForm()">
 			<label>First Name</label>
-			<input type="text" name="firstname" placeholder="Enter First name">
+			<input type="text" name="firstname" placeholder="Enter First name" id="firstname">
+
+			<div id="result1" class="result"></div>
+
 			<label>Last Name</label>
-			<input type="text" name="lastname" placeholder="Enter Last name">
+			<input type="text" name="lastname" placeholder="Enter Last name" id="lastname">
+
 			<label>Email</label>
-			<input type="email" name="useremail" placeholder="Enter email">
+			<input type="email" name="useremail" placeholder="Enter email" id="useremail">
+
 			<label>Account Type</label>
 			<select>
 				<option>--select account--</option>
@@ -32,9 +43,14 @@
 				<option>Lecturer</option>
 			</select>
 			<label>Password</label>
-			<input type="password" name="userpassword" placeholder="Enter Password">
+			<input type="password" name="userpassword" placeholder="Enter Password" id="userpassword">
+
+			<div id="result2" class="result"></div>
+
 			<input type="submit" name="SignUp" value="SignUp">
 		</form>
 	</div>
+	<script src="script.js"></script>
+
 	</body>
 </html>
