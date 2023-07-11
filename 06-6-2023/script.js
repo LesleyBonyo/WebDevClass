@@ -21,6 +21,8 @@ function validateForm(){
 		document.getElementById('result1').innerHTML = "";
 		
 	}
+	//provide validation for last name
+	
 	if (password.length < 8){
 		document.getElementById('result2').innerHTML = 
 			"Password should have at least 8 characters only";
