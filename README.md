@@ -16,3 +16,7 @@ JavaScript HTML DOM:<a href="https://github.com/LesleyBonyo/WebDevClass/tree/mai
 <br>
 
 ## PHP Class
+Create data driven web applications with PHP and MYSQL
+PHP syntax:
+PHP and MYSQL(CRUD):
+PHP and MYSQL Example:
