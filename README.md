@@ -17,6 +17,6 @@ JavaScript HTML DOM:<a href="https://github.com/LesleyBonyo/WebDevClass/tree/mai
 
 ## PHP Class
 Create data driven web applications with PHP and MYSQL
-PHP syntax:
-PHP and MYSQL(CRUD):
-PHP and MYSQL Example:
+PHP syntax: <a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/11-07-2023">PHP</a><br>
+PHP and MYSQL(CRUD): <a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/11-07-2023">PHP</a><br>
+PHP and MYSQL Example:<a href="https://github.com/LesleyBonyo/WebDevClass/tree/main/24-07-2023">Signup and Login Example</a><br>
