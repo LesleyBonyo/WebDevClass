@@ -7,7 +7,8 @@ if ($_SERVER['REQUEST_METHOD']=='POST') {
 	$sql = "INSERT INTO register(name,password) VALUES('$name','$password')";
 	$result = mysqli_query($connect,$sql);
 	if ($result) {
-		echo "registered successfully";
+		//echo "registered successfully";
+		header('location:display.php');
 	} else{
 		echo "not successful";
 	}

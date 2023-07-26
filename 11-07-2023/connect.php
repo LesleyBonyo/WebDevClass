@@ -6,11 +6,12 @@
 	$db = 'nothing';
 
 	$connect = mysqli_connect($server,$user,$password, $db);
-	if ($connect){
-		echo "Connection successful";
-	} else {
-		echo "not successful";
-	}
+	if (!$connect){
+		echo "Connection unsuccessful";
+	} 
+	// else {
+	// 	echo "not successful";
+	// }
 	/*
 	$sql = "CREATE DATABASE nothing";
 	$result = mysqli_query($connect,$sql);
